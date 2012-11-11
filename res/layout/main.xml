@@ -9,20 +9,19 @@
         android:id="@+id/dropdown_textview"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginRight="10dip"
         android:background="@drawable/dropdown_background"
         android:drawableRight="@drawable/icn_dropdown_open"
         android:gravity="center_vertical|left"
-        android:paddingLeft="10dip"
-        android:paddingRight="10dip"
+        android:padding="10dip"
         android:text="Dropdown alts:" />
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/dropdown_textview"
-        android:padding="50dip"
+        android:layout_marginTop="10dip"
+        android:padding="100dip"
         android:text="other content" />
 
     <LinearLayout
