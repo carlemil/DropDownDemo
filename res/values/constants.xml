@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- determin how long it takes for the dropdown to animate in/out -->
+    <integer name="dropdown_amination_time">200</integer>
+
+</resources>
